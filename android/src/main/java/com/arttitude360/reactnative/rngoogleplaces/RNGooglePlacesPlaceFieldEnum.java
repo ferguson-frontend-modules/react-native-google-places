@@ -1,7 +1,7 @@
 package com.arttitude360.reactnative.rngoogleplaces;
 
 import android.util.SparseArray;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.google.android.libraries.places.api.model.Place;
 
@@ -41,7 +41,7 @@ public enum RNGooglePlacesPlaceFieldEnum {
     public Place.Field getField() {
         return field;
     }
-    
+
     @Nullable
     public static RNGooglePlacesPlaceFieldEnum findByFieldKey(String key) {
         int fieldId;
